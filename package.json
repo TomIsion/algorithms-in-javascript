@@ -1,0 +1,19 @@
+{
+  "name": "algorithms-in-javascript",
+  "version": "0.0.1",
+  "description": "describe data structure and algorithms in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomIsion/algorithms-in-javascript.git"
+  },
+  "author": "TomIsion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TomIsion/algorithms-in-javascript/issues"
+  },
+  "homepage": "https://github.com/TomIsion/algorithms-in-javascript#readme"
+}
