@@ -8,7 +8,12 @@
       "type": "node",
       "request": "launch",
       "name": "debug current file",
-      "program": "${file}"
+      // "program": "${file}",
+      "program": "${workspaceFolder}/test/sort/index.js",
+      "args": [
+        "arrLength=10",
+        "sortNames=mergeUD"
+      ]
     }
   ]
 }
