@@ -12,13 +12,20 @@ function bubbleSort(arr) {
   ]
 
   for (let i = 0; i < result.length; i++) {
-    for (let j = i + 1; j < result.length; j++) {
-      const current = result[i]
-      const pointer = result[j]
+    let swaped = false // 如果在下面一次循环中 不做任何位置交换 说明剩下的数据本身就是有序的 可以直接跳出冒泡排序
 
-      if (pointer < current) { // 交换两个位置上的值
-        swap(result, i, j)
+    for (let j = 0; j + 1 < result.length - i; j++) {
+      const current = result[j]
+      const next = result[j + 1]
+
+      if (current > next) { // 交换两个位置上的值
+        swaped = true
+        swap(result, j, j + 1)
       }
+    }
+
+    if (!swaped) {
+      return result
     }
   }
 
