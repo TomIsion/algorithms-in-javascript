@@ -8,6 +8,7 @@ const objSortFuncMappings = {
   shell: require('../../src/sort/4. shellSort'),
   merge: require('../../src/sort/5. mergeSort').mergeSort,
   mergeUD: require('../../src/sort/5. mergeSort').mergeSortUD,
+  quick: require('../../src/sort/6. quickSort'),
 }
 
 // 排序方法名称的 mapping
